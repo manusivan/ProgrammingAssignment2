@@ -19,7 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setInv = setInv,
        getInv = getInv)
 }
-
 ## this function inverses the matrix got from makeCacheMatrix
 ## checks if inversion result is there and returns the inverted matrix.
 cacheSolve <- function(x, ...) {
